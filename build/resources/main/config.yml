@@ -1,0 +1,26 @@
+# ChasingTails 플러그인 설정
+
+# 포식자 접근을 감지할 거리 (단위: 블록)
+proximity-warning-distance: 20.0
+
+# 목표물을 추적하는 데 사용할 아이템
+# 아이템 목록: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Material.html
+tracking-item: DIAMOND
+
+# 포획이 아닌 일반적인 죽음(낙사, 몬스터 등) 시 인벤토리를 보존할지 여부 (true/false)
+keep-inventory-on-normal-death: false
+
+# 게임 시작 후 PvP가 비활성화되는 평화 시간 (단위: 초)
+grace-period-duration: 300
+
+# 게임 시작 시 플레이어가 흩어질 범위 (중심 0,0으로부터의 거리)
+random-spawn-range: 500
+
+# 게임 시작 시 생성될 월드보더의 크기 (예: 1000 -> +/- 500 좌표까지)
+world-border-size: 1000
+
+# 목표/포식자 정보를 익명(팀 색상)으로 표시할지 여부 (true/false)
+use-anonymous-names: true
+
+# 비-PvP 사망 시 부활 대기 시간 (단위: 초)
+death-penalty-duration: 60

@@ -1,0 +1,13 @@
+name: ChasingTails
+version: '1.5.1_Hotfix'
+main: org.TogethersChannel.chasingTails.ChasingTails
+api-version: '1.21'
+author: SpringNote
+description: 1.21.9 꼬리잡기 서바이벌 플러그인
+commands:
+  tail:
+    description: 꼬리잡기 메인 명령어
+    usage: /tail <start|stop|target>
+  tailconfig:
+    description: Config command for the Tail-Catching game.
+    usage: /tailconfig <reload|set>
